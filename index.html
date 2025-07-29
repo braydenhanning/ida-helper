@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDA Helper Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>IDA Helper Tool</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>What would you like to do?</h2>
+      <ul>
+        <li><button onclick="navigateTo('imeiLookup')">IMEI Lookup</button></li>
+        <li><button onclick="navigateTo('boxSwapSteps')">Box Swap Guide</button></li>
+        <li><button onclick="navigateTo('printTool')">Print Promo Tool</button></li>
+      </ul>
+    </section>
+
+    <section id="contentArea">
+      <!-- Dynamic content will load here -->
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
