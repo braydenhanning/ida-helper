@@ -1,0 +1,385 @@
+Label ID,Segment,Clusters,"Market
+Type","Market Area 
+(Segments in Grey are for possible future use)",Offer,Speed,Term,Tracker,Internet Offer (Bank Account AutoPay),Internet Offer (Debit Card AutoPay),"Internet Offer 
+(No AutoPay / 
+CC AutoPay)",Internet Base,Internet Base,Speed Price,Speed,Internet Credit,Internet Credit,Additional Internet Credit,Additional Internet Credit,"Bank Account 
+AutoPay 
+Credit","Bank Account 
+AutoPay 
+Credit",Debit Card AutoPay Credit,Debit Card AutoPay Credit,"NEF
+FEE","NEF
+FEE",Gift w/ Internet,Gift w/ Internet,Additional Gift with Move Transfer,Additional Gift with Move Transfer
+F0019027440A00WNA050H08251,WNA,"26,27","M,P",West New Build A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNA100S08251,WNA,"26,27","M,P",West New Build A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNA300H08251,WNA,"26,27","M,P",West New Build A,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA500H08251,WNA,"26,27","M,P",West New Build A,500M HFC,500/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNA01GH08251,WNA,"26,27","M,P,F,G",West New Build A,1G HFC,940/35,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,IG,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNA100F08251,WNA,"26,27","F,G",West New Build A,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNA300F08251,WNA,"26,27","F,G",West New Build A,300M Fiber,300/300,12,.6,$30 ,$35 ,$40 ,$0 ,-,$75 ,MG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA500F08251,WNA,"26,27","F,G",West New Build A,500M Fiber,500/500,12,.6,$40 ,$45 ,$50 ,$0 ,-,$95 ,53,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNA01GF08251,WNA,"26,27","F,G",West New Build A,1G Fiber,1G/1G,24,W(,$50 ,$55 ,$60 ,$0 ,-,$115 ,F^,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNA050H08251,WNA,"26,27","A,B",West New Build A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNA100S08251,WNA,"26,27","A,B",West New Build A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNA300H08251,WNA,"26,27","A,B",West New Build A,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA500S08251,WNA,"26,27","A,B",West New Build A,500M HFC,500/40,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,FX,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNA01GS08251,WNA,"26,27","A,B",West New Build A,1G HFC,940/100,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,TA,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNA050H08251,WNA,"26,27","C,E",West New Build A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNA100S08251,WNA,"26,27","C,E",West New Build A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNA300M08251,WNA,"26,27","C,E",West New Build A,300M HFC_,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA500M08251,WNA,"26,27","C,E",West New Build A,500M HFC_,500/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA001H08251,WNA,"26,27","J,Q",West New Build A,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA003H08251,WNA,"26,27","J,Q",West New Build A,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA015H08251,WNA,"26,27","J,Q",West New Build A,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNA030H08251,WNA,"26,27","J,Q",West New Build A,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WNB050H08251,WNB,"28,29","M,P,F,G",West New Build B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNB100S08251,WNB,"28,29","M,P,F,G",West New Build B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNB300H08251,WNB,"28,29","M,P,F,G",West New Build B,300M HFC,300/20,12,.6,$25 ,$30 ,$35 ,$0 ,1E,$75 ,EG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB500H08251,WNB,"28,29","M,P,F,G",West New Build B,500M HFC,500/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$95 ,OJ,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNB01GH08251,WNB,"28,29","M,P,F,G",West New Build B,1G HFC,940/35,24,W(,$45 ,$50 ,$55 ,$0 ,1E,$115 ,IG,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNB100F08251,WNB,"28,29","F,G",West New Build B,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNB300F08251,WNB,"28,29","F,G",West New Build B,300M Fiber,300/300,12,.6,$25 ,$30 ,$35 ,$0 ,-,$75 ,MG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB500F08251,WNB,"28,29","F,G",West New Build B,500M Fiber,500/500,12,.6,$35 ,$40 ,$45 ,$0 ,-,$95 ,53,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNB01GF08251,WNB,"28,29","F,G",West New Build B,1G Fiber,1G/1G,24,W(,$45 ,$50 ,$55 ,$0 ,-,$115 ,F^,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNB050H08251,WNB,"28,29","A,B",West New Build B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNB100S08251,WNB,"28,29","A,B",West New Build B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNB300H08251,WNB,"28,29","A,B",West New Build B,300M HFC,300/20,12,.6,$25 ,$30 ,$35 ,$0 ,1E,$75 ,EG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB500S08251,WNB,"28,29","A,B",West New Build B,500M HFC,500/40,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$95 ,FX,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNB01GS08251,WNB,"28,29","A,B",West New Build B,1G HFC,940/100,24,W(,$45 ,$50 ,$55 ,$0 ,1E,$115 ,TA,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNB050H08251,WNB,"28,29","C,E",West New Build B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNB100S08251,WNB,"28,29","C,E",West New Build B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNB300M08251,WNB,"28,29","C,E",West New Build B,300M HFC_,300/20,12,.6,$25 ,$30 ,$35 ,$0 ,1E,$75 ,EG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB500M08251,WNB,"28,29","C,E",West New Build B,500M HFC_,500/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$95 ,OJ,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB001H08251,WNB,"28,29","J,Q",West New Build B,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB003H08251,WNB,"28,29","J,Q",West New Build B,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB015H08251,WNB,"28,29","J,Q",West New Build B,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNB030H08251,WNB,"28,29","J,Q",West New Build B,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WNC050H08251,WNC,"30,31","M,P,F,G",West New Build C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNC100S08251,WNC,"30,31","M,P,F,G",West New Build C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNC300H08251,WNC,"30,31","M,P,F,G",West New Build C,300M HFC,300/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$75 ,EG,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC500H08251,WNC,"30,31","M,P,F,G",West New Build C,500M HFC,500/20,12,.6,$45 ,$50 ,$55 ,$0 ,1E,$95 ,OJ,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNC01GH08251,WNC,"30,31","M,P,F,G",West New Build C,1G HFC,940/35,24,W(,$55 ,$60 ,$65 ,$0 ,1E,$115 ,IG,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNC100F08251,WNC,"30,31","F,G",West New Build C,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNC300F08251,WNC,"30,31","F,G",West New Build C,300M Fiber,300/300,12,.6,$35 ,$40 ,$45 ,$0 ,-,$75 ,MG,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC500F08251,WNC,"30,31","F,G",West New Build C,500M Fiber,500/500,12,.6,$45 ,$50 ,$55 ,$0 ,-,$95 ,53,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNC01GF08251,WNC,"30,31","F,G",West New Build C,1G Fiber,1G/1G,24,W(,$55 ,$60 ,$65 ,$0 ,-,$115 ,F^,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNC050H08251,WNC,"30,31","A,B",West New Build C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNC100S08251,WNC,"30,31","A,B",West New Build C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNC300H08251,WNC,"30,31","A,B",West New Build C,300M HFC,300/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$75 ,EG,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC500S08251,WNC,"30,31","A,B",West New Build C,500M HFC,500/40,12,.6,$45 ,$50 ,$55 ,$0 ,1E,$95 ,FX,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WNC01GS08251,WNC,"30,31","A,B",West New Build C,1G HFC,940/100,24,W(,$55 ,$60 ,$65 ,$0 ,1E,$115 ,TA,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WNC050H08251,WNC,"30,31","C,E",West New Build C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WNC100S08251,WNC,"30,31","C,E",West New Build C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WNC300M08251,WNC,"30,31","C,E",West New Build C,300M HFC_,300/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$75 ,EG,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC500M08251,WNC,"30,31","C,E",West New Build C,500M HFC_,500/20,12,.6,$45 ,$50 ,$55 ,$0 ,1E,$95 ,OJ,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC001H08251,WNC,"30,31","J,Q",West New Build C,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC003H08251,WNC,"30,31","J,Q",West New Build C,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC015H08251,WNC,"30,31","J,Q",West New Build C,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WNC030H08251,WNC,"30,31","J,Q",West New Build C,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WWA050H08251,WWA,"58,59","M,P,F,G",West Winback A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WWA100S08251,WWA,"58,59","M,P,F,G",West Winback A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWA300H08251,WWA,"58,59","M,P,F,G",West Winback A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA500H08251,WWA,"58,59","M,P,F,G",West Winback A,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WWA01GH08251,WWA,"58,59","M,P,F,G",West Winback A,1G HFC,940/35,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,IG,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WWA100F08251,WWA,"58,59","F,G",West Winback A,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWA300F08251,WWA,"58,59","F,G",West Winback A,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA500F08251,WWA,"58,59","F,G",West Winback A,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WWA01GF08251,WWA,"58,59","F,G",West Winback A,1G Fiber,1G/1G,24,W(,$60 ,$65 ,$70 ,$0 ,-,$115 ,F^,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WWA050H08251,WWA,"58,59","A,B",West Winback A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WWA100S08251,WWA,"58,59","A,B",West Winback A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWA300H08251,WWA,"58,59","A,B",West Winback A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA500S08251,WWA,"58,59","A,B",West Winback A,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WWA01GS08251,WWA,"58,59","A,B",West Winback A,1G HFC,940/100,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,TA,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WWA050H08251,WWA,"58,59","C,E",West Winback A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WWA100S08251,WWA,"58,59","C,E",West Winback A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWA300M08251,WWA,"58,59","C,E",West Winback A,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA500M08251,WWA,"58,59","C,E",West Winback A,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA001H08251,WWA,"58,59","J,Q",West Winback A,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA003H08251,WWA,"58,59","J,Q",West Winback A,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA015H08251,WWA,"58,59","J,Q",West Winback A,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWA030H08251,WWA,"58,59","J,Q",West Winback A,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WWB050H08251,WWB,"91,92","M,P,F,G",West Winback B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WWB100S08251,WWB,"91,92","M,P,F,G",West Winback B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWB300H08251,WWB,"91,92","M,P,F,G",West Winback B,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB500H08251,WWB,"91,92","M,P,F,G",West Winback B,500M HFC,500/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WWB01GH08251,WWB,"91,92","M,P,F,G",West Winback B,1G HFC,940/35,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,IG,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WWB100F08251,WWB,"91,92","F,G",West Winback B,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWB300F08251,WWB,"91,92","F,G",West Winback B,300M Fiber,300/300,12,.6,$30 ,$35 ,$40 ,$0 ,-,$75 ,MG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB500F08251,WWB,"91,92","F,G",West Winback B,500M Fiber,500/500,12,.6,$40 ,$45 ,$50 ,$0 ,-,$95 ,53,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WWB01GF08251,WWB,"91,92","F,G",West Winback B,1G Fiber,1G/1G,24,W(,$50 ,$55 ,$60 ,$0 ,-,$115 ,F^,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WWB050H08251,WWB,"91,92","A,B",West Winback B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WWB100S08251,WWB,"91,92","A,B",West Winback B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWB300H08251,WWB,"91,92","A,B",West Winback B,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB500S08251,WWB,"91,92","A,B",West Winback B,500M HFC,500/40,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,FX,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WWB01GS08251,WWB,"91,92","A,B",West Winback B,1G HFC,940/100,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,TA,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WWB050H08251,WWB,"91,92","C,E",West Winback B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WWB100S08251,WWB,"91,92","C,E",West Winback B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WWB300M08251,WWB,"91,92","C,E",West Winback B,300M HFC_,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB500M08251,WWB,"91,92","C,E",West Winback B,500M HFC_,500/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB001H08251,WWB,"91,92","J,Q",West Winback B,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB003H08251,WWB,"91,92","J,Q",West Winback B,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB015H08251,WWB,"91,92","J,Q",West Winback B,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WWB030H08251,WWB,"91,92","J,Q",West Winback B,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTA050H08251,WTA,"60,61","M,P,F,G",West Test A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTA100S08251,WTA,"60,61","M,P,F,G",West Test A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTA300H08251,WTA,"60,61","M,P,F,G",West Test A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA500H08251,WTA,"60,61","M,P,F,G",West Test A,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A24WTA01GH08251,WTA,"60,61","M,P,F,G",West Test A,1G HFC,940/35,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,IG,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTA100F08251,WTA,"60,61","F,G",West Test A,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTA300F08251,WTA,"60,61","F,G",West Test A,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA500F08251,WTA,"60,61","F,G",West Test A,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A24WTA01GF08251,WTA,"60,61","F,G",West Test A,1G Fiber,1G/1G,24,W(,$60 ,$65 ,$70 ,$0 ,-,$115 ,F^,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTA050H08251,WTA,"60,61","A,B",West Test A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTA100S08251,WTA,"60,61","A,B",West Test A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTA300H08251,WTA,"60,61","A,B",West Test A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA500S08251,WTA,"60,61","A,B",West Test A,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA01GS08251,WTA,"60,61","A,B",West Test A,1G HFC,940/100,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,TA,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTA050H08251,WTA,"60,61","C,E",West Test A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTA100S08251,WTA,"60,61","C,E",West Test A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTA300M08251,WTA,"60,61","C,E",West Test A,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA500M08251,WTA,"60,61","C,E",West Test A,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA001H08251,WTA,"60,61","J,Q",West Test A,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA003H08251,WTA,"60,61","J,Q",West Test A,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA015H08251,WTA,"60,61","J,Q",West Test A,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTA030H08251,WTA,"60,61","J,Q",West Test A,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTB050H08251,WTB,"62,63","M,P,F,G",West Test B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTB100S08251,WTB,"62,63","M,P,F,G",West Test B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTB300H08251,WTB,"62,63","M,P,F,G",West Test B,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB500H08251,WTB,"62,63","M,P,F,G",West Test B,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A24WTB01GH08251,WTB,"62,63","M,P,F,G",West Test B,1G HFC,940/35,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,IG,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTB100F08251,WTB,"62,63","F,G",West Test B,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTB300F08251,WTB,"62,63","F,G",West Test B,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB500F08251,WTB,"62,63","F,G",West Test B,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A24WTB01GF08251,WTB,"62,63","F,G",West Test B,1G Fiber,1G/1G,24,W(,$50 ,$55 ,$60 ,$0 ,-,$115 ,F^,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTB050H08251,WTB,"62,63","A,B",West Test B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTB100S08251,WTB,"62,63","A,B",West Test B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTB300H08251,WTB,"62,63","A,B",West Test B,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB500S08251,WTB,"62,63","A,B",West Test B,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB01GS08251,WTB,"62,63","A,B",West Test B,1G HFC,940/100,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,TA,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTB050H08251,WTB,"62,63","C,E",West Test B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTB100S08251,WTB,"62,63","C,E",West Test B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WTB300M08251,WTB,"62,63","C,E",West Test B,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB500M08251,WTB,"62,63","C,E",West Test B,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB001H08251,WTB,"62,63","J,Q",West Test B,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB003H08251,WTB,"62,63","J,Q",West Test B,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB015H08251,WTB,"62,63","J,Q",West Test B,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WTB030H08251,WTB,"62,63","J,Q",West Test B,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTC050H08251,WTC,"64,65","M,P,F,G",West Test C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTC100S08251,WTC,"64,65","M,P,F,G",West Test C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A36WTC300H08251,WTC,"64,65","M,P,F,G",West Test C,300M HFC,300/20,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC500H08251,WTC,"64,65","M,P,F,G",West Test C,500M HFC,500/20,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC01GH08251,WTC,"64,65","M,P,F,G",West Test C,1G HFC,940/35,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$115 ,IG,($65),R!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTC100F08251,WTC,"64,65","F,G",West Test C,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A36WTC300F08251,WTC,"64,65","F,G",West Test C,300M Fiber,300/300,36,+V,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC500F08251,WTC,"64,65","F,G",West Test C,500M Fiber,500/500,36,+V,$40 ,$45 ,$50 ,$0 ,-,$95 ,53,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC01GF08251,WTC,"64,65","F,G",West Test C,1G Fiber,1G/1G,36,+V,$40 ,$45 ,$50 ,$0 ,-,$115 ,F^,($65),R!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTC050H08251,WTC,"64,65","A,B",West Test C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WTC100S08251,WTC,"64,65","A,B",West Test C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A36WTC300H08251,WTC,"64,65","A,B",West Test C,300M HFC,300/20,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC500S08251,WTC,"64,65","A,B",West Test C,500M HFC,500/40,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$95 ,FX,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC01GS08251,WTC,"64,65","A,B",West Test C,1G HFC,940/100,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$115 ,TA,($65),R!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WTC050H08251,WTC,"64,65","C,E",West Test C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,,,,,,,-,-,,
+F0019027440A00WTC100S08251,WTC,"64,65","C,E",West Test C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A36WTC300M08251,WTC,"64,65","C,E",West Test C,300M HFC_,300/20,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC500M08251,WTC,"64,65","C,E",West Test C,500M HFC_,500/20,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC001H08251,WTC,"64,65","J,Q",West Test C,1M HFC,1/256,36,+V,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC003H08251,WTC,"64,65","J,Q",West Test C,3M HFC,3/512,36,+V,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC015H08251,WTC,"64,65","J,Q",West Test C,15M HFC,15/1.5,36,+V,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A36WTC030H08251,WTC,"64,65","J,Q",West Test C,30M HFC,30/3,36,+V,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA050H08251,WRA,"14,15","M,P,F,G",West Reserve A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRA100S08251,WRA,"14,15","M,P,F,G",West Reserve A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300H08251,WRA,"14,15","M,P,F,G",West Reserve A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500H08251,WRA,"14,15","M,P,F,G",West Reserve A,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA01GH08251,WRA,"14,15","M,P,F,G",West Reserve A,1G HFC,940/35,12,.6,$70 ,$75 ,$80 ,$0 ,1E,$115 ,IG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA100F08251,WRA,"14,15","F,G",West Reserve A,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300F08251,WRA,"14,15","F,G",West Reserve A,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500F08251,WRA,"14,15","F,G",West Reserve A,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA01GF08251,WRA,"14,15","F,G",West Reserve A,1G Fiber,1G/1G,12,.6,$70 ,$75 ,$80 ,$0 ,-,$115 ,F^,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA050H08251,WRA,"14,15","A,B",West Reserve A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRA100S08251,WRA,"14,15","A,B",West Reserve A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300H08251,WRA,"14,15","A,B",West Reserve A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500S08251,WRA,"14,15","A,B",West Reserve A,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRA01GS08251,WRA,"14,15","A,B",West Reserve A,1G HFC,940/100,12,.6,$70 ,$75 ,$80 ,$0 ,1E,$115 ,TA,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA050H08251,WRA,"14,15","C,E",West Reserve A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRA100S08251,WRA,"14,15","C,E",West Reserve A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300M08251,WRA,"14,15","C,E",West Reserve A,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500M08251,WRA,"14,15","C,E",West Reserve A,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA001H08251,WRA,"14,15","J,Q",West Reserve A,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA003H08251,WRA,"14,15","J,Q",West Reserve A,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA015H08251,WRA,"14,15","J,Q",West Reserve A,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA030H08251,WRA,"14,15","J,Q",West Reserve A,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA050H08251,WRA,"14,15","M,P,F,G",West Reserve A (Ecomm only),50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRA100S08251,WRA,"14,15","M,P,F,G",West Reserve A (Ecomm only),100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300H08251,WRA,"14,15","M,P,F,G",West Reserve A (Ecomm only),300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500H08251,WRA,"14,15","M,P,F,G",West Reserve A (Ecomm only),500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA01GH08252,WRA,"14,15","M,P,F,G",West Reserve A (Ecomm only),1G HFC,940/35,12,.6,$60 ,$65 ,$70 ,$0 ,1E,$115 ,IG,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA100F08251,WRA,"14,15","F,G",West Reserve A (Ecomm only),100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300F08251,WRA,"14,15","F,G",West Reserve A (Ecomm only),300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500F08251,WRA,"14,15","F,G",West Reserve A (Ecomm only),500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA01GF08252,WRA,"14,15","F,G",West Reserve A (Ecomm only),1G Fiber,1G/1G,12,.6,$60 ,$65 ,$70 ,$0 ,-,$115 ,F^,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA050H08251,WRA,"14,15","A,B",West Reserve A (Ecomm only),50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRA100S08251,WRA,"14,15","A,B",West Reserve A (Ecomm only),100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300H08251,WRA,"14,15","A,B",West Reserve A (Ecomm only),300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500S08251,WRA,"14,15","A,B",West Reserve A (Ecomm only),500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRA01GS08252,WRA,"14,15","A,B",West Reserve A (Ecomm only),1G HFC,940/100,12,.6,$60 ,$65 ,$70 ,$0 ,1E,$115 ,TA,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRA050H08251,WRA,"14,15","C,E",West Reserve A (Ecomm only),50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRA100S08251,WRA,"14,15","C,E",West Reserve A (Ecomm only),100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRA300M08251,WRA,"14,15","C,E",West Reserve A (Ecomm only),300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA500M08251,WRA,"14,15","C,E",West Reserve A (Ecomm only),500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA001H08251,WRA,"14,15","J,Q",West Reserve A (Ecomm only),1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA003H08251,WRA,"14,15","J,Q",West Reserve A (Ecomm only),3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA015H08251,WRA,"14,15","J,Q",West Reserve A (Ecomm only),15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRA030H08251,WRA,"14,15","J,Q",West Reserve A (Ecomm only),30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WRB050H08251,WRB,"16,17","M,P,F,G",West Reserve B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRB100S08251,WRB,"16,17","M,P,F,G",West Reserve B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRB300H08251,WRB,"16,17","M,P,F,G",West Reserve B,300M HFC,300/20,12,.6,$25 ,$30 ,$35 ,$0 ,1E,$75 ,EG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB500H08251,WRB,"16,17","M,P,F,G",West Reserve B,500M HFC,500/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$95 ,OJ,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRB01GH08251,WRB,"16,17","M,P,F,G",West Reserve B,1G HFC,940/35,24,W(,$45 ,$50 ,$55 ,$0 ,1E,$115 ,IG,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRB100F08251,WRB,"16,17","F,G",West Reserve B,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRB300F08251,WRB,"16,17","F,G",West Reserve B,300M Fiber,300/300,12,.6,$25 ,$30 ,$35 ,$0 ,-,$75 ,MG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB500F08251,WRB,"16,17","F,G",West Reserve B,500M Fiber,500/500,12,.6,$35 ,$40 ,$45 ,$0 ,-,$95 ,53,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRB01GF08251,WRB,"16,17","F,G",West Reserve B,1G Fiber,1G/1G,24,W(,$45 ,$50 ,$55 ,$0 ,-,$115 ,F^,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRB050H08251,WRB,"16,17","A,B",West Reserve B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRB100S08251,WRB,"16,17","A,B",West Reserve B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRB300H08251,WRB,"16,17","A,B",West Reserve B,300M HFC,300/20,12,.6,$25 ,$30 ,$35 ,$0 ,1E,$75 ,EG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB500S08251,WRB,"16,17","A,B",West Reserve B,500M HFC,500/40,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$95 ,FX,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRB01GS08251,WRB,"16,17","A,B",West Reserve B,1G HFC,940/100,24,W(,$45 ,$50 ,$55 ,$0 ,1E,$115 ,TA,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRB050H08251,WRB,"16,17","C,E",West Reserve B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRB100S08251,WRB,"16,17","C,E",West Reserve B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRB300M08251,WRB,"16,17","C,E",West Reserve B,300M HFC_,300/20,12,.6,$25 ,$30 ,$35 ,$0 ,1E,$75 ,EG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB500M08251,WRB,"16,17","C,E",West Reserve B,500M HFC_,500/20,12,.6,$35 ,$40 ,$45 ,$0 ,1E,$95 ,OJ,($35),YX,($15),F!,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB001H08251,WRB,"16,17","J,Q",West Reserve B,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB003H08251,WRB,"16,17","J,Q",West Reserve B,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB015H08251,WRB,"16,17","J,Q",West Reserve B,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRB030H08251,WRB,"16,17","J,Q",West Reserve B,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WRC050H08251,WRC,"18,19","M,P,F,G",West Reserve C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRC100S08251,WRC,"18,19","M,P,F,G",West Reserve C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRC300H08251,WRC,"18,19","M,P,F,G",West Reserve C,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC500H08251,WRC,"18,19","M,P,F,G",West Reserve C,500M HFC,500/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRC01GH08251,WRC,"18,19","M,P,F,G",West Reserve C,1G HFC,940/35,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,IG,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRC100F08251,WRC,"18,19","F,G",West Reserve C,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRC300F08251,WRC,"18,19","F,G",West Reserve C,300M Fiber,300/300,12,.6,$30 ,$35 ,$40 ,$0 ,-,$75 ,MG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC500F08251,WRC,"18,19","F,G",West Reserve C,500M Fiber,500/500,12,.6,$40 ,$45 ,$50 ,$0 ,-,$95 ,53,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRC01GF08251,WRC,"18,19","F,G",West Reserve C,1G Fiber,1G/1G,24,W(,$50 ,$55 ,$60 ,$0 ,-,$115 ,F^,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRC050H08251,WRC,"18,19","A,B",West Reserve C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRC100S08251,WRC,"18,19","A,B",West Reserve C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRC300H08251,WRC,"18,19","A,B",West Reserve C,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC500S08251,WRC,"18,19","A,B",West Reserve C,500M HFC,500/40,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,FX,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WRC01GS08251,WRC,"18,19","A,B",West Reserve C,1G HFC,940/100,24,W(,$50 ,$55 ,$60 ,$0 ,1E,$115 ,TA,($55),=D,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WRC050H08251,WRC,"18,19","C,E",West Reserve C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WRC100S08251,WRC,"18,19","C,E",West Reserve C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WRC300M08251,WRC,"18,19","C,E",West Reserve C,300M HFC_,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC500M08251,WRC,"18,19","C,E",West Reserve C,500M HFC_,500/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$95 ,OJ,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC001H08251,WRC,"18,19","J,Q",West Reserve C,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC003H08251,WRC,"18,19","J,Q",West Reserve C,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC015H08251,WRC,"18,19","J,Q",West Reserve C,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WRC030H08251,WRC,"18,19","J,Q",West Reserve C,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WGA050H08251,WGA,"20,21,22,23,24,25,66,67","M,P,F,G",West General A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGA100S08251,WGA,"20,21,22,23,24,25,66,67","M,P,F,G",West General A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGA300H08251,WGA,"20,21,22,23,24,25,66,67","M,P,F,G",West General A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA500H08251,WGA,"20,21,22,23,24,25,66,67","M,P,F,G",West General A,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGA01GH08251,WGA,"20,21,22,23,24,25,66,67","M,P,F,G",West General A,1G HFC,940/35,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,IG,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGA100F08251,WGA,"20,21,22,23,24,25,66,67","F,G",West General A,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGA300F08251,WGA,"20,21,22,23,24,25,66,67","F,G",West General A,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA500F08251,WGA,"20,21,22,23,24,25,66,67","F,G",West General A,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGA01GF08251,WGA,"20,21,22,23,24,25,66,67","F,G",West General A,1G Fiber,1G/1G,24,W(,$60 ,$65 ,$70 ,$0 ,-,$115 ,F^,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGA050H08251,WGA,"20,21,22,23,24,25,38,39,66,67","A,B",West General A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGA100S08251,WGA,"20,21,22,23,24,25,38,39,66,67","A,B",West General A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGA300H08251,WGA,"20,21,22,23,24,25,38,39,66,67","A,B",West General A,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA500S08251,WGA,"20,21,22,23,24,25,38,39,66,67","A,B",West General A,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGA01GS08251,WGA,"20,21,22,23,24,25,38,39,66,67","A,B",West General A,1G HFC,940/100,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,TA,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGA050H08251,WGA,"20,21,22,23,24,25,66,67","C,E",West General A,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGA100S08251,WGA,"20,21,22,23,24,25,66,67","C,E",West General A,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGA300M08251,WGA,"20,21,22,23,24,25,66,67","C,E",West General A,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA500M08251,WGA,"20,21,22,23,24,25,66,67","C,E",West General A,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA001H08251,WGA,"20,21,22,23,24,25,66,67","J,Q",West General A,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA003H08251,WGA,"20,21,22,23,24,25,66,67","J,Q",West General A,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA015H08251,WGA,"20,21,22,23,24,25,66,67","J,Q",West General A,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGA030H08251,WGA,"20,21,22,23,24,25,66,67","J,Q",West General A,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WGB050H08251,WGB,"40,41","M,P,F,G",West General B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGB100S08251,WGB,"40,41","M,P,F,G",West General B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGB300H08251,WGB,"40,41","M,P,F,G",West General B,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB500H08251,WGB,"40,41","M,P,F,G",West General B,500M HFC,500/20,12,.6,$55 ,$60 ,$65 ,$0 ,1E,$95 ,OJ,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGB01GH08251,WGB,"40,41","M,P,F,G",West General B,1G HFC,940/35,24,W(,$65 ,$70 ,$75 ,$0 ,1E,$115 ,IG,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGB100F08251,WGB,"40,41","F,G",West General B,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGB300F08251,WGB,"40,41","F,G",West General B,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB500F08251,WGB,"40,41","F,G",West General B,500M Fiber,500/500,12,.6,$55 ,$60 ,$65 ,$0 ,-,$95 ,53,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGB01GF08251,WGB,"40,41","F,G",West General B,1G Fiber,1G/1G,24,W(,$65 ,$70 ,$75 ,$0 ,-,$115 ,F^,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGB050H08251,WGB,"40,41","A,B",West General B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGB100S08251,WGB,"40,41","A,B",West General B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGB300H08251,WGB,"40,41","A,B",West General B,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB500S08251,WGB,"40,41","A,B",West General B,500M HFC,500/40,12,.6,$55 ,$60 ,$65 ,$0 ,1E,$95 ,FX,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGB01GS08251,WGB,"40,41","A,B",West General B,1G HFC,940/100,24,W(,$65 ,$70 ,$75 ,$0 ,1E,$115 ,TA,($35),YX,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGB050H08251,WGB,"40,41","C,E",West General B,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGB100S08251,WGB,"40,41","C,E",West General B,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGB300M08251,WGB,"40,41","C,E",West General B,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB500M08251,WGB,"40,41","C,E",West General B,500M HFC_,500/20,12,.6,$55 ,$60 ,$65 ,$0 ,1E,$95 ,OJ,($25),(E,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB001H08251,WGB,"40,41","J,Q",West General B,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB003H08251,WGB,"40,41","J,Q",West General B,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB015H08251,WGB,"40,41","J,Q",West General B,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGB030H08251,WGB,"40,41","J,Q",West General B,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WGC050H08251,WGC,"42,43","M,P,F,G",West General C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGC100S08251,WGC,"42,43","M,P,F,G",West General C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGC300H08251,WGC,"42,43","M,P,F,G",West General C,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC500H08251,WGC,"42,43","M,P,F,G",West General C,500M HFC,500/20,12,.6,$60 ,$65 ,$70 ,$0 ,1E,$95 ,OJ,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGC01GH08251,WGC,"42,43","M,P,F,G",West General C,1G HFC,940/35,24,W(,$70 ,$75 ,$80 ,$0 ,1E,$115 ,IG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGC100F08251,WGC,"42,43","F,G",West General C,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGC300F08251,WGC,"42,43","F,G",West General C,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC500F08251,WGC,"42,43","F,G",West General C,500M Fiber,500/500,12,.6,$60 ,$65 ,$70 ,$0 ,-,$95 ,53,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGC01GF08251,WGC,"42,43","F,G",West General C,1G Fiber,1G/1G,24,W(,$70 ,$75 ,$80 ,$0 ,-,$115 ,F^,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGC050H08251,WGC,"42,43","A,B",West General C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGC100S08251,WGC,"42,43","A,B",West General C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGC300H08251,WGC,"42,43","A,B",West General C,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC500S08251,WGC,"42,43","A,B",West General C,500M HFC,500/40,12,.6,$60 ,$65 ,$70 ,$0 ,1E,$95 ,FX,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WGC01GS08251,WGC,"42,43","A,B",West General C,1G HFC,940/100,24,W(,$70 ,$75 ,$80 ,$0 ,1E,$115 ,TA,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WGC050H08251,WGC,"42,43","C,E",West General C,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WGC100S08251,WGC,"42,43","C,E",West General C,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WGC300M08251,WGC,"42,43","C,E",West General C,300M HFC_,300/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$75 ,EG,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC500M08251,WGC,"42,43","C,E",West General C,500M HFC_,500/20,12,.6,$60 ,$65 ,$70 ,$0 ,1E,$95 ,OJ,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC001H08251,WGC,"42,43","J,Q",West General C,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC003H08251,WGC,"42,43","J,Q",West General C,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC015H08251,WGC,"42,43","J,Q",West General C,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WGC030H08251,WGC,"42,43","J,Q",West General C,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WBS050H08251,WBS,"38,39","M,P,F,G",West Back to School,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WBS100S08251,WBS,"38,39","M,P,F,G",West Back to School,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WBS300H08251,WBS,"38,39","M,P,F,G",West Back to School,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS500H08251,WBS,"38,39","M,P,F,G",West Back to School,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS01GH08251,WBS,"38,39","M,P,F,G",West Back to School,1G HFC,940/35,12,.6,$45 ,$50 ,$55 ,$0 ,1E,$115 ,IG,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WBS100F08251,WBS,"38,39","F,G",West Back to School,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WBS300F08251,WBS,"38,39","F,G",West Back to School,300M Fiber,300/300,12,.6,$30 ,$35 ,$40 ,$0 ,-,$75 ,MG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS500F08251,WBS,"38,39","F,G",West Back to School,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS01GF08251,WBS,"38,39","F,G",West Back to School,1G Fiber,1G/1G,12,.6,$45 ,$50 ,$55 ,$0 ,-,$115 ,F^,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WBS050H08251,WBS,"38,39","A,B",West Back to School,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WBS100S08251,WBS,"38,39","A,B",West Back to School,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WBS300H08251,WBS,"38,39","A,B",West Back to School,300M HFC,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS500S08251,WBS,"38,39","A,B",West Back to School,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WBS01GS08251,WBS,"38,39","A,B",West Back to School,1G HFC,940/100,12,.6,$45 ,$50 ,$55 ,$0 ,1E,$115 ,TA,($55),=D,($5),Q.,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WBS050H08251,WBS,"38,39","C,E",West Back to School,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WBS100S08251,WBS,"38,39","C,E",West Back to School,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WBS300M08251,WBS,"38,39","C,E",West Back to School,300M HFC_,300/20,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$75 ,EG,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS500M08251,WBS,"38,39","C,E",West Back to School,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS001H08251,WBS,"38,39","J,Q",West Back to School,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS003H08251,WBS,"38,39","J,Q",West Back to School,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS015H08251,WBS,"38,39","J,Q",West Back to School,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WBS030H08251,WBS,"38,39","J,Q",West Back to School,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A00WFP050H08251,WFP,"47,48","M,P,F,G",West FASTPASS,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WFP100S08251,WFP,"47,48","M,P,F,G",West FASTPASS,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WFP300H08251,WFP,"47,48","M,P,F,G",West FASTPASS,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP500H08251,WFP,"47,48","M,P,F,G",West FASTPASS,500M HFC,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WFP01GH08251,WFP,"47,48","M,P,F,G",West FASTPASS,1G HFC,940/35,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,IG,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WFP100F08251,WFP,"47,48","F,G",West FASTPASS,100M Fiber,100/100,00,-,$25 ,$25 ,$25 ,$0 ,-,$25 ,F(,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WFP300F08251,WFP,"47,48","F,G",West FASTPASS,300M Fiber,300/300,12,.6,$40 ,$45 ,$50 ,$0 ,-,$75 ,MG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP500F08251,WFP,"47,48","F,G",West FASTPASS,500M Fiber,500/500,12,.6,$50 ,$55 ,$60 ,$0 ,-,$95 ,53,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WFP01GF08251,WFP,"47,48","F,G",West FASTPASS,1G Fiber,1G/1G,24,W(,$60 ,$65 ,$70 ,$0 ,-,$115 ,F^,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WFP050H08251,WFP,"47,48","A,B",West FASTPASS,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WFP100S08251,WFP,"47,48","A,B",West FASTPASS,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WFP300H08251,WFP,"47,48","A,B",West FASTPASS,300M HFC,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP500S08251,WFP,"47,48","A,B",West FASTPASS,500M HFC,500/40,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,FX,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A24WFP01GS08251,WFP,"47,48","A,B",West FASTPASS,1G HFC,940/100,24,W(,$60 ,$65 ,$70 ,$0 ,1E,$115 ,TA,($35),YX,($10),Q2,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A00WFP050H08251,WFP,"47,48","C,E",West FASTPASS,50M HFC,50/5,00,-,$14.99 ,$14.99 ,$14.99 ,$0 ,!.,$14.99 ,5S,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A00WFP100S08251,WFP,"47,48","C,E",West FASTPASS,100M HFC,100/20,00,-,$25 ,$25 ,$25 ,$0 ,1E,$25 ,IQ,$0 ,-,$0 ,-,$0 ,-,$0 ,-,$0 ,G8,-,-,-,-
+F0019027440A12WFP300M08251,WFP,"47,48","C,E",West FASTPASS,300M HFC_,300/20,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$75 ,EG,($25),(E,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP500M08251,WFP,"47,48","C,E",West FASTPASS,500M HFC_,500/20,12,.6,$50 ,$55 ,$60 ,$0 ,1E,$95 ,OJ,($35),YX,$0 ,-,($10),DJ,($5),D#,$0 ,G8,6mo. Disney+/Hulu on Us,YN,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP001H08251,WFP,"47,48","J,Q",West FASTPASS,1M HFC,1/256,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,IX,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP003H08251,WFP,"47,48","J,Q",West FASTPASS,3M HFC,3/512,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,@Z,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP015H08251,WFP,"47,48","J,Q",West FASTPASS,15M HFC,15/1.5,12,.6,$30 ,$35 ,$40 ,$0 ,1E,$55 ,B#,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
+F0019027440A12WFP030H08251,WFP,"47,48","J,Q",West FASTPASS,30M HFC,30/3,12,.6,$40 ,$45 ,$50 ,$0 ,1E,$65 ,2I,($15),F!,$0 ,-,($10),DJ,($5),D#,$0 ,G8,-,-,$100 Snappy Gift of Choice,!L
