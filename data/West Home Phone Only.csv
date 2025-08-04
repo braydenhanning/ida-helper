@@ -1,8 +1,13 @@
-"Market Area 
-(Segments in Grey are for possible future use)",Offer,Speed,Term,Tracker,Price,,,Price,Addon Code,,,,Internet Price,,Internet Base,Speed Price,Speed,Internet Credit,Internet Credit,Additional Internet Credit,Additional Internet Credit,"Bank Account 
+Label ID,Segment,Clusters,"Market
+Type","Market Area 
+(Segments in Grey are for possible future use)",Offer,Speed,Term,Tracker,Internet Offer (Bank Account AutoPay),Internet Offer (Debit Card AutoPay),"Internet Offer 
+(No AutoPay / 
+CC AutoPay)",Internet Base,Internet Base,Speed Price,Speed,Internet Credit,Internet Credit,Additional Internet Credit,Additional Internet Credit,"Bank Account 
 AutoPay 
-Credit","Bank Account 
-AutoPay 
-Credit",Debit Card AutoPay Credit,Debit Card AutoPay Credit,Equipment
-West FASTPASS,Optimum Phone,0/0,00,-,$0.00,-,-,$25.00,"""@U""",-,-,-,$0.00 ,,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,-,$0 ,-,-
-West FASTPASS,Home Phone Unlimited,0/0,00,-,$0.00,-,-,$35.00,2S,-,-,-,$0.00 ,,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,-,$0 ,-,-
+Credit",Home Phone,,,,,
+F0019027440A00WFP050H08251,WFP,"47,48","M,P,F,G",West FASTPASS,Optimum Phone,0/0,0,-,$25.00 ,$25.00 ,$25.00 ,$0 ,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,"""@U""",,,,,
+F0019027440A00WFP100S08251,WFP,"47,48","M,P,F,G",West FASTPASS,Home Phone,0/0,0,-,$35 ,$35.00 ,$35 ,$0 ,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,2S,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
