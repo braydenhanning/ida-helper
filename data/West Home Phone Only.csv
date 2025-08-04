@@ -1,8 +1,2 @@
-"Market Area 
-(Segments in Grey are for possible future use)",Offer,Speed,Term,Tracker,Price,,,Price,Addon Code,,,,Internet Price,,Internet Base,Speed Price,Speed,Internet Credit,Internet Credit,Additional Internet Credit,Additional Internet Credit,"Bank Account 
-AutoPay 
-Credit","Bank Account 
-AutoPay 
-Credit",Debit Card AutoPay Credit,Debit Card AutoPay Credit,Equipment
-West FASTPASS,Optimum Phone,0/0,00,-,$0.00,-,-,$25.00,"""@U""",-,-,-,$0.00 ,,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,-,$0 ,-,-
-West FASTPASS,Home Phone Unlimited,0/0,00,-,$0.00,-,-,$35.00,2S,-,-,-,$0.00 ,,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,-,$0 ,-,-
+West FASTPASS,Optimum Phone,0/0,00,-,$0.00,-,-,$25.00,"""@U""",-,-,-,$0.00,nan,ND,$0.00,QV,$0,-,$0,-,$0,-,$0,-,-,Home Phone
+West FASTPASS,Home Phone Unlimited,0/0,00,-,$0.00,-,-,$35.00,2S,-,-,-,$0.00 ,,ND,$0.00 ,QV,$0 ,-,$0 ,-,$0 ,-,$0 ,-,-,
