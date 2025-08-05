@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IDA Tool – Offer Code Helper</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .hidden { display: none; }
+    .flex-layout { display: flex; gap: 40px; }
+    .checkbox-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .category { border: 1px solid #ccc; padding: 10px; border-radius: 8px; }
+    h2, h3 { margin-top: 0; }
+    #results { white-space: pre-wrap; border: 1px solid #ccc; padding: 10px; border-radius: 8px; width: 100%; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script>
+    function filterMarketsByState() {
+      const selectedState = document.getElementById('state').value;
+      const marketDropdown = document.getElementById('marketDropdown');
+      const validMarketTypes = stateMarketMap[selectedState] || [];
+
+      const filteredMarkets = Object.keys(marketTypeMap).filter(market =>
+        [...marketTypeMap[market]].some(type => validMarketTypes.includes(type))
+      );
+
+      if (filteredMarkets.length > 0) {
+        populateDropdown(filteredMarkets);
+        marketDropdown.disabled = false;
+      } else {
+        marketDropdown.innerHTML = '<option value="">-- No Markets Found --</option>';
+        marketDropdown.disabled = true;
+      }
+    }
+  </script>
+  <script src="ida-tool.js" defer></script>
+</head>
+<body>
+<div id="header">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Optimum_logo.png" alt="Optimum Logo" class="logo" />
+  <h2>IDA Tool – Offer Code Helper</h2>
+</div>
+
+<!-- State Selection Question -->
+<div id="stateSection">
+  <h3>Step 1: Please select your state:</h3>
+  <label for="state">Select State:</label><br>
+  <select id="state" onchange="filterMarketsByState()">
+    <option value="">--Select a State--</option>
+    <option value="WV">West Virginia</option>
+    <!-- Add more states here later -->
+  </select>
+</div>
+
+
+  <!-- Market Area Selection -->
+  <div id="marketSection">
+    <h3>Step 2: Please select your market area:</h3>
+    <label for="marketDropdown">Select the customer's market area:</label><br>
+    <select id="marketDropdown" disabled>
+      <option value="">-- Select Market Area --</option>
+      <!-- Market options will be dynamically loaded based on state selection -->
+    </select><br><br>
+    <button onclick="submitMarket()">Submit</button>
+  </div>
+
+  <div id="servicesSection" class="hidden">
+    <h3>Step 3: Select applicable services:</h3>
+<div class="flex-layout">
+  <div class="checkbox-grid" id="serviceCheckboxes"></div>
+  <div style="flex: 1;">
+    <div id="results"></div>
+    <div id="promoSection" style="margin-top: 20px; text-align: center;">
+      <button onclick="window.open('https://braydenhanning.github.io/promo-tool/', '_blank')" class="promo-button">
+        Does the customer want Mobile too?
+      </button>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+</html>

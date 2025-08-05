@@ -1,0 +1,169 @@
+/* New fade-in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* styles.css */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Make sure both sides in .flex-layout behave */
+.flex-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Ensure checkbox grid and results each take up equal space */
+.checkbox-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#results {
+  flex: 1;
+  white-space: pre-wrap;
+  border: 2px solid #0056b3;
+  padding: 24px;
+  border-radius: 12px;
+  font-size: 1.25em;
+  background-color: #f8fbff;
+  min-height: 350px;
+  overflow-y: auto;
+  line-height: 1.5;
+}
+
+/* Make checkbox labels look and feel like big buttons */
+.checkbox-grid label {
+  font-size: 1.2em;
+  padding: 16px;
+  border: 2px solid #0077cc;
+  border-radius: 12px;
+  background-color: #f0f8ff;
+  cursor: pointer;
+  display: block;
+  transition: background-color 0.2s;
+}
+
+.checkbox-grid label:hover {
+  background-color: #e0f0ff;
+}
+
+/* Optional: increase the size of the checkbox itself */
+.checkbox-grid input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.promo-button {
+  font-size: 1.2em;
+  padding: 14px 28px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo-button:hover {
+  background-color: #005fa3;
+}
+
+#marketSection {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#marketSection h3 {
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+
+#marketSection label {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#marketDropdown {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#marketSection button {
+  font-size: 1.2em;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#marketSection button:hover {
+  background-color: #218838;
+}
+#header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#header .logo {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#header h2 {
+  font-size: 2em;
+  margin: 0;
+}
+#stateSection {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#stateSection h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#stateSection label {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 0px;
+}
+
+#stateSection select {
+  font-size: 0.7em;
+  padding: 5px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
