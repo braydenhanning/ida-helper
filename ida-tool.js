@@ -126,99 +126,123 @@ function populateDropdown(markets) {
 }
 
 function submitMarket() {
-  const selectedMarket = document.getElementById('marketDropdown').value;
-  if (!selectedMarket) return alert("Please select a market area first.");
-  const container = document.getElementById('serviceCheckboxes');
-  container.innerHTML = '';
+  const selectedMarket = document.getElementById('marketDropdown').value;
+  if (!selectedMarket) return alert("Please select a market area first.");
+  const container = document.getElementById('serviceCheckboxes');
+  container.innerHTML = '';
 
-  const foundServices = new Set();
+  const foundServices = new Set();
+  const serviceDetails = {}; // New object to store service details like prices
 
-  allOffers.forEach(({ content }) => {
-  const headers = content[0].map(h => h.trim()); // Move this outside slice(1) loop
-  content.slice(1).forEach(cols => {
-    if (cols[4] && cols[4].trim().toLowerCase() === selectedMarket.toLowerCase().trim()) {
-      // 🔍 Look through TV columns based on headers
-      headers.forEach((header, colIndex) => {
-  const fixedHeader = serviceNameFixes[header] || header;
+  allOffers.forEach(({ content }) => {
+  const headers = content[0].map(h => h.trim());
+  content.slice(1).forEach(cols => {
+    if (cols[4] && cols[4].trim().toLowerCase() === selectedMarket.toLowerCase().trim()) {
 
-  // Skip if it’s not a recognized service
-  if (!serviceDisplayMap[fixedHeader]) return;
-
-  const cellValue = cols[colIndex]?.trim();
-
-  // If this row has a non-zero, valid service value
-  if (cellValue && cellValue !== '$0' && cellValue !== 'N/A') {
-    foundServices.add(fixedHeader);
-    console.log(`📦 Found from header: ${fixedHeader} = ${cellValue}`);
-  }
-});
-      // 🧹 Now check regular service string (cols[5])
+      // Check for available internet offers
       if (cols[5]) {
-        const servicesInRow = cols[5].split('+').map(s => {
-          const trimmed = s.trim().replace(/\s+/g, ' ');
-          const fixed = serviceNameFixes.hasOwnProperty(trimmed) ? serviceNameFixes[trimmed] : trimmed;
-          console.log("Raw:", s, "Trimmed:", trimmed, "Fixed:", fixed);
-          return fixed === null ? null : fixed;
-        }).filter(Boolean);
+        const offerName = cols[5].trim().replace(/\s+/g, ' ');
+        const fixedName = serviceNameFixes.hasOwnProperty(offerName) ? serviceNameFixes[offerName] : offerName;
 
-        servicesInRow.forEach(service => {
-          foundServices.add(service);
-        });
+        if (serviceDisplayMap[fixedName] && serviceCategories["HFC Internet"].includes(fixedName) || serviceCategories["Fiber Internet"].includes(fixedName)) {
+            foundServices.add(fixedName);
+            // Store the pricing details for later use
+            serviceDetails[fixedName] = {
+                regularPrice: cols[14]?.trim() || 'N/A',
+                discountedPrice: cols[11]?.trim() || 'N/A'
+            };
+        }
+      }
+
+      // 🔍 Look through TV columns based on headers
+      headers.forEach((header, colIndex) => {
+  const fixedHeader = serviceNameFixes[header] || header;
+
+  // Skip if it’s not a recognized service
+  if (!serviceDisplayMap[fixedHeader]) return;
+
+  const cellValue = cols[colIndex]?.trim();
+
+  // If this row has a non-zero, valid service value
+  if (cellValue && cellValue !== '$0' && cellValue !== 'N/A') {
+    foundServices.add(fixedHeader);
+    console.log(`📦 Found from header: ${fixedHeader} = ${cellValue}`);
+  }
+});
+      // 🧹 Now check regular service string (cols[5])
+      if (cols[5]) {
+        const servicesInRow = cols[5].split('+').map(s => {
+          const trimmed = s.trim().replace(/\s+/g, ' ');
+          const fixed = serviceNameFixes.hasOwnProperty(trimmed) ? serviceNameFixes[trimmed] : trimmed;
+          console.log("Raw:", s, "Trimmed:", trimmed, "Fixed:", fixed);
+          return fixed === null ? null : fixed;
+        }).filter(Boolean);
+
+        servicesInRow.forEach(service => {
+          foundServices.add(service);
+        });
 }
 // ✅ Manually catch Optimum Phone or Home Phone from Home Phone CSV layout
 if (cols[8]) {
-  const label = cols[5]?.trim();
-  const phoneVal = cols[8]?.trim();
-  console.log("🔎 Checking phone row — Label:", label, "Value:", phoneVal);
+  const label = cols[5]?.trim();
+  const phoneVal = cols[8]?.trim();
+  console.log("🔎 Checking phone row — Label:", label, "Value:", phoneVal);
 
-  if (phoneVal && phoneVal !== '$0' && phoneVal !== 'N/A') {
-    if (label === "Home Phone") {
-      foundServices.add("Home Phone");
-      console.log("☎️ Found: Home Phone (via column 8)");
-    }
-  }
+  if (phoneVal && phoneVal !== '$0' && phoneVal !== 'N/A') {
+    if (label === "Home Phone") {
+      foundServices.add("Home Phone");
+      console.log("☎️ Found: Home Phone (via column 8)");
+    }
+  }
 }
-    }
-  });
+    }
+  });
 });
 
 for (const [category, services] of Object.entries(serviceCategories)) {
-  const catDiv = document.createElement('div');
-  catDiv.className = 'category';
-  const heading = document.createElement('h4');
-  heading.textContent = category;
-  catDiv.appendChild(heading);
+  const catDiv = document.createElement('div');
+  catDiv.className = 'category';
+  const heading = document.createElement('h4');
+  heading.textContent = category;
+  catDiv.appendChild(heading);
 
-  services.forEach(service => {
-    if (foundServices.has(service)) {
-      const label = document.createElement('label');
-      label.classList.add('fade-in-up'); // 💫 This is where it goes
+  services.forEach(service => {
+    if (foundServices.has(service)) {
+      const label = document.createElement('label');
+      label.classList.add('fade-in-up');
 
-      const displayName = serviceDisplayMap[service] || service;
-      const checkbox = document.createElement('input');
-      checkbox.type = 'checkbox';
-      checkbox.value = service;
-      checkbox.className = 'service';
-      checkbox.addEventListener('change', generateCodes);
+      let displayName = serviceDisplayMap[service] || service;
 
-      label.appendChild(checkbox);
-      label.append(` ${displayName}`);
+      // Add pricing for internet services
+      if (serviceDetails[service]) {
+          const { regularPrice, discountedPrice } = serviceDetails[service];
+          displayName += ` (Reg: ${regularPrice}, Disc: ${discountedPrice})`;
+      }
 
-      catDiv.appendChild(label);
-      catDiv.appendChild(document.createElement('br'));
-    }
-  });
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.value = service;
+      checkbox.className = 'service';
+      checkbox.addEventListener('change', generateCodes);
 
-  container.appendChild(catDiv);
+      label.appendChild(checkbox);
+      label.append(` ${displayName}`);
+
+      catDiv.appendChild(label);
+      catDiv.appendChild(document.createElement('br'));
+    }
+  });
+
+  container.appendChild(catDiv);
 }
 
-  document.getElementById('marketSection').classList.add('hidden');
-  document.getElementById('servicesSection').classList.remove('hidden');
+  document.getElementById('marketSection').classList.add('hidden');
+  document.getElementById('servicesSection').classList.remove('hidden');
 }
 
 function generateCodes() {
-  const selectedMarket = document.getElementById('marketDropdown').value;
-  let selectedServices = [...document.querySelectorAll('.service:checked')].map(cb => cb.value);
+  const selectedMarket = document.getElementById('marketDropdown').value;
+  let selectedServices = [...document.querySelectorAll('.service:checked')].map(cb => cb.value);
 
 // Force "Phone" to behave like "Home Phone"
 selectedServices = selectedServices.map(s => s === "Phone" ? "Home Phone" : s);
@@ -226,134 +250,158 @@ selectedServices = selectedServices.map(s => s === "Phone" ? "Home Phone" : s);
 
 // Check for multiple internet selections
 const allInternetServices = [
-  ...serviceCategories["HFC Internet"],
-  ...serviceCategories["Fiber Internet"]
+  ...serviceCategories["HFC Internet"],
+  ...serviceCategories["Fiber Internet"]
 ];
 const selectedInternet = selectedServices.filter(service => allInternetServices.includes(service));
 if (selectedInternet.length > 1) {
-  alert("⚠️ A customer cannot have more than one internet service selected at a time.");
+  alert("⚠️ A customer cannot have more than one internet service selected at a time.");
 }
 
 const resultsBox = document.getElementById('results');
 if (!resultsBox) return;
 
 if (selectedServices.length === 0) {
-  resultsBox.innerText = 'No services selected.';
+  resultsBox.innerText = 'No services selected.';
 resultsBox.classList.remove('fade-in-up');
 resultsBox.classList.remove('hidden'); // Remove animation if needed
-  return;
+  return;
 }
 
-  const matchedMarketTypes = marketTypeMap[selectedMarket] || new Set();
+  const matchedMarketTypes = marketTypeMap[selectedMarket] || new Set();
 
-  console.log("🔍 Running generateCodes()");
-  console.log("➡️ Selected Market:", selectedMarket);
-  console.log("✅ Selected Services:", selectedServices);
-  console.log("📊 Matched Market Types from map:", [...matchedMarketTypes]);
+  console.log("🔍 Running generateCodes()");
+  console.log("➡️ Selected Market:", selectedMarket);
+  console.log("✅ Selected Services:", selectedServices);
+  console.log("📊 Matched Market Types from map:", [...matchedMarketTypes]);
 
-  let results = `Market Area: ${selectedMarket}\n\nSelected Services:\n${selectedServices.join('\n')}\n\n`;
-  const seenMatches = new Set();
+  let results = `Market Area: ${selectedMarket}\n\nSelected Services:\n${selectedServices.join('\n')}\n\n`;
+  const seenMatches = new Set();
 
-  allOffers.forEach(({ content }) => {
-    const headers = content[0].map(h => h.trim().replace(/\s+/g, ' '));
-    content.slice(1).forEach(cols => {
-      const offerString = cols[5] ? cols[5].trim() : '';
+  allOffers.forEach(({ content }) => {
+    const headers = content[0].map(h => h.trim().replace(/\s+/g, ' '));
+    content.slice(1).forEach(cols => {
+      const offerString = cols[5] ? cols[5].trim() : '';
 if (!cols || cols.length < 6) {
-  console.warn("⛔ Skipping malformed row:", cols);
-  return;
+  console.warn("⛔ Skipping malformed row:", cols);
+  return;
 }
 
 // Handle standalone Optimum Phone / Home Phone rows
-  const label = cols[5]?.trim();
-  const phoneVal = cols[8].trim();
+  const label = cols[5]?.trim();
+  const phoneVal = cols[8].trim();
 
 const isManualPhone =
-  selectedServices.includes("Home Phone") &&
-  (label === "Home Phone" || label === "Optimum Phone");
+  selectedServices.includes("Home Phone") &&
+  (label === "Home Phone" || label === "Optimum Phone");
 
 if (isManualPhone && cols[21]?.trim()) {
-  const isOptimumPhone = label === "Optimum Phone";
-  const isHomePhone = label === "Home Phone";
+  const isOptimumPhone = label === "Optimum Phone";
+  const isHomePhone = label === "Home Phone";
 
-  results += `Offer Match: ${label}\n`;
+  const baseCode = cols[13]?.trim() || 'N/A';
+  const credit = cols[17]?.trim() || 'N/A';
+  const autoPayCredit1 = cols[22]?.trim() || '';
+  const autoPayCode1 = cols[23]?.trim() || '';
+  const autoPayCredit2 = cols[20]?.trim() || '';
+  const autoPayCode2 = cols[21]?.trim() || '';
+  const gift = cols[29]?.trim() || 'N/A';
+  const tracking = cols[9]?.trim() || 'N/A';
+  const speed = cols[15]?.trim() || 'N/A';
 
-  const baseCode = cols[13]?.trim() || 'N/A';
-  const credit = cols[17]?.trim() || 'N/A';
-  const autoPay = cols[23]?.trim() || 'N/A';
-  const gift = cols[29]?.trim() || 'N/A';
-  const tracking = cols[9]?.trim() || 'N/A';
+  const voiceCode = cols[21]?.trim() || 'N/A';
 
-  // ✅ Properly split voice code based on the label
-  const voiceCode = cols[21]?.trim() || 'N/A';
+  results += `\n[Service Codes]\n`;
+  results += `Offer Match: ${label}\n`;
+  if (speed !== 'N/A') {
+    results += `Speed Rate Code: ${speed}\n`;
+  }
 
-  results += `\n[Service Codes]\n`;
-  if (isHomePhone || isOptimumPhone) {
-    results += `Voice: ${voiceCode}\n`;
+  if (isHomePhone || isOptimumPhone) {
+    results += `Voice: ${voiceCode}\n`;
+  }
+
+  results += `Base: ${baseCode}\n`;
+  if (credit && credit !== 'N/A') results += `Credit: ${credit}\n`;
+  
+  // NEW AUTO-PAY LOGIC
+  let autoPayString = '';
+  if (autoPayCode1 && autoPayCredit1) {
+    autoPayString += `${autoPayCode1} (${autoPayCredit1})`;
   }
-
-  results += `Base: ${baseCode}\n`;
-  if (credit && credit !== 'N/A') results += `Credit: ${credit}\n`;
-  if (autoPay && autoPay !== 'N/A') results += `Auto Pay: ${autoPay}\n`;
+  if (autoPayCode2 && autoPayCredit2) {
+    if (autoPayString !== '') {
+      autoPayString += ' or ';
+    }
+    autoPayString += `${autoPayCode2} (${autoPayCredit2})`;
+  }
+  if (autoPayString !== '') {
+    results += `Auto Pay: ${autoPayString}\n`;
+  }
+  
   if (tracking && tracking !== 'N/A') results += `Tracking Code: ${tracking}\n`;
-  if (gift && gift !== 'N/A') results += `Gift: ${gift}\n\n`;
+  if (gift && gift !== 'N/A') results += `Gift: ${gift}\n\n`;
 
-  seenMatches.add(label);
-  return;
+  seenMatches.add(label);
+  return;
 }
 
 const offerMarketTypes = cols[3]?.split(',').map(t => t.trim()) || [];
 const typeMatch = [...matchedMarketTypes].some(typeSet =>
-  offerMarketTypes.includes(typeSet)
+  offerMarketTypes.includes(typeSet)
 );
 
-      console.log("— Checking row —");
-      console.log("Offer Market Types (cols[3]):", cols[3]);
-      console.log("Does it match any?", typeMatch);
+      console.log("— Checking row —");
+      console.log("Offer Market Types (cols[3]):", cols[3]);
+      console.log("Does it match any?", typeMatch);
 
 const marketMatch = cols[4]?.trim().toLowerCase() === selectedMarket.toLowerCase().trim();
 
 // ✅ Skip if neither valid market nor a phone-only manual row
 if ((!typeMatch || !marketMatch) && !isManualPhone) return;
 
-      // ...rest of your code continues
+      // ...rest of your code continues
 
 const offerServices = offerString
-  .split('+')
-  .map(s => s.trim().replace(/\s+/g, ' '))
-  .map(s => serviceNameFixes.hasOwnProperty(s) ? serviceNameFixes[s] : s)
-  .filter(s => s && serviceDisplayMap.hasOwnProperty(s));
+  .split('+')
+  .map(s => s.trim().replace(/\s+/g, ' '))
+  .map(s => serviceNameFixes.hasOwnProperty(s) ? serviceNameFixes[s] : s)
+  .filter(s => s && serviceDisplayMap.hasOwnProperty(s));
 
-      const normalizedOffer = offerServices.map(s => s.toLowerCase()).sort().join(',');
-      const normalizedSelected = selectedServices.map(s => s.toLowerCase()).sort().join(',');
+      const normalizedOffer = offerServices.map(s => s.toLowerCase()).sort().join(',');
+      const normalizedSelected = selectedServices.map(s => s.toLowerCase()).sort().join(',');
 
-      if (normalizedOffer === normalizedSelected && !seenMatches.has(normalizedOffer)) {
-        console.log("Matched Row:", cols);
-        seenMatches.add(normalizedOffer);
+      if (normalizedOffer === normalizedSelected && !seenMatches.has(normalizedOffer)) {
+        console.log("Matched Row:", cols);
+        seenMatches.add(normalizedOffer);
 
-        results += `Offer Match: ${offerString}\n`;
+        results += `Offer Match: ${offerString}\n`;
 
-        // Speed and bundle info
-        const speedIndex = headers.indexOf("Speed");
-        const bundleColumnCandidates = [
-          "Internet + Entertainment TV Bundle Price",
-          "Main Code",
-          "Bundle Code"
-        ];
-        const bundleIndex = headers.findIndex(h =>
-          bundleColumnCandidates.some(name => h.includes(name))
-        );
+        // Speed and bundle info
+        const speedIndex = headers.indexOf("Speed");
+        const bundleColumnCandidates = [
+          "Internet + Entertainment TV Bundle Price",
+          "Main Code",
+          "Bundle Code"
+        ];
+        const bundleIndex = headers.findIndex(h =>
+          bundleColumnCandidates.some(name => h.includes(name))
+        );
 
-        // Extract speed code (1Gbps, 500Mbps, etc.)
+        // Extract speed code (1Gbps, 500Mbps, etc.)
 const internetSpeed = speedIndex !== -1 ? cols[speedIndex] : 'N/A';
 const speedRateIndex = headers.findIndex(h => h.toLowerCase().includes("rate code"));
 const speedRateCode = cols[15] || 'N/A';
 results += `Internet Speed: ${internetSpeed}\n`;
 results += `Speed Rate Code: ${speedRateCode}\n`;
 
-        // Extracting key codes
-        const internetBase = cols[13] || 'N/A';   // Speed Base code (like W( or 1E)
+        // Extracting key codes
+        const internetBase = cols[13] || 'N/A';   // Speed Base code (like W( or 1E)
 const internetCredit = cols[17] || 'N/A'; // Bank autopay
-const autoPayCode = cols[23] || 'N/A';    // Debit autopay
+const autoPayCredit1 = cols[22]?.trim() || '';
+const autoPayCode1 = cols[23]?.trim() || '';
+const autoPayCredit2 = cols[20]?.trim() || '';
+const autoPayCode2 = cols[21]?.trim() || '';
 const trackingcode = cols[8] || 'N/A'; // tracking code
 const giftCode = cols[29] || 'N/A';
 
@@ -364,22 +412,35 @@ results += `\n[Service Codes]\n`;
 results += `Base: ${internetBase}\n`;
 
 if (internetCredit !== 'N/A') {
-  results += `Credit: ${internetCredit}\n`;
+  results += `Credit: ${internetCredit}\n`;
 }
 if (additionalCredit1 && additionalCredit1 !== 'N/A') {
-  results += `Additional Credit: ${additionalCredit1}\n`;
+  results += `Additional Credit: ${additionalCredit1}\n`;
 }
-if (autoPayCode !== 'N/A') {
-  results += `Auto Pay: ${autoPayCode}\n`;
+
+// NEW AUTO-PAY LOGIC
+let autoPayString = '';
+if (autoPayCode1 && autoPayCredit1) {
+  autoPayString += `${autoPayCode1} ${autoPayCredit1}`;
 }
+if (autoPayCode2 && autoPayCredit2) {
+  if (autoPayString !== '') {
+    autoPayString += ' or ';
+  }
+  autoPayString += `${autoPayCode2} ${autoPayCredit2}`;
+}
+if (autoPayString !== '') {
+  results += `Auto Pay: ${autoPayString}\n`;
+}
+
 if (trackingcode !== 'N/A') {
-  results += `Tracking Code: ${trackingcode}\n`;
+  results += `Tracking Code: ${trackingcode}\n`;
 }
 results += `Gift: ${giftCode}\n\n`;
 
-      }
-    });
-  });
+      }
+    });
+  });
 
 if (!resultsBox) return; // fail-safe
 
@@ -395,10 +456,10 @@ if (!resultsBox) return;
 
 const checkboxes = document.querySelectorAll('.service:checked');
 if (checkboxes.length === 0) {
-  resultsBox.classList.remove('fade-in-up');
-  resultsBox.classList.add('hidden');
-  resultsBox.innerText = '';
-  return;
+  resultsBox.classList.remove('fade-in-up');
+  resultsBox.classList.add('hidden');
+  resultsBox.innerText = '';
+  return;
 }
 
 // Reset and trigger animation
