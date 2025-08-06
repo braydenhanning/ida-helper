@@ -172,10 +172,7 @@ if (cols[8]) {
   console.log("🔎 Checking phone row — Label:", label, "Value:", phoneVal);
 
   if (phoneVal && phoneVal !== '$0' && phoneVal !== 'N/A') {
-    if (label === "Optimum Phone") {
-      foundServices.add("Phone");
-      console.log("📞 Found: Optimum Phone (via column 8)");
-    } else if (label === "Home Phone") {
+    if (label === "Home Phone") {
       foundServices.add("Home Phone");
       console.log("☎️ Found: Home Phone (via column 8)");
     }
@@ -274,7 +271,7 @@ const isManualPhone =
   selectedServices.includes("Home Phone") &&
   (label === "Home Phone" || label === "Optimum Phone");
 
-if (!offerString && isManualPhone && phoneVal && phoneVal !== '$0' && phoneVal !== 'N/A') {
+if (isManualPhone && cols[21]?.trim()) {
   const isOptimumPhone = label === "Optimum Phone";
   const isHomePhone = label === "Home Phone";
 
